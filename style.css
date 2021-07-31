@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+*{
+	font-family: 'Quicksand', sans-serif;
+}
+body{
+	background-color: cornflowerblue;
+	font-family: 'Quicksand', sans-serif;
+	margin-top: 50px;
+}
+i{
+	color:darkslateblue;
+}
+#submit_button
+{
+	margin-top: 20px; 
+	margin-bottom: 20px; 
+	border-radius: 10px;
+	border: 0.5px solid coral;
+	background-color: aquamarine;
+}
+button
+{
+	border-radius: 10px;
+	border: 0.5px solid coral;
+	background-color: aquamarine;
+}
+#sort_button
+{
+	display: none;
+	margin-top: 20px; 
+	margin-bottom: 20px; 
+}
+
+input
+{
+	margin: 10px;
+	border: 0.5px solid coral;
+	background-color: aquamarine;
+	border-radius: 5px;
+}
+.display_name_with_commas
+{
+	border: 1px solid green;
+    padding: 10px;
+	background-color: greenyellow;
+	border-radius: 10px;
+    width: 50%;
+}
+
+#display_name_without_commas
+{
+	border: 1px solid red;
+    padding: 10px;
+    background-color: lightcoral;
+	border-radius: 10px;
+    width: 50%;
+}
